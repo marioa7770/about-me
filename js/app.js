@@ -6,9 +6,11 @@ console.log(username);
 alert ('Hello' +  username);
 }
 
+function city(){
 let amIFromSanfrancisco = prompt('Am I from San Francisco? Yes or No?').
 toLowerCase();
 console.log(amIFromSanfrancisco);
+}
 
 let where  = prompt ('What Part of San Francisco?')
 console.log(where);
