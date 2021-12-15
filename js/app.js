@@ -1,10 +1,10 @@
 'use strict';
-
+function Greeting(){
 console.log('hi');
-
 let username = prompt('what is your name?');
 console.log(username);
 alert ('Hello' +  username);
+}
 
 let amIFromSanfrancisco = prompt('Am I from San Francisco? Yes or No?').
 toLowerCase();
