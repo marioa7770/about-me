@@ -17,11 +17,11 @@ let where  = prompt ('What Part of San Francisco?')
 console.log(where);
 alert (' I am from there too!' + username);
 }
-
+function activity(){
 let favorite = prompt (' What is your favorite thing to do there?')
 console.log(favorite);
 alert ('that sounds like fun!' + username);
-
+}
 //let lowerCaseSanfrancisco = amIFromSanfrancisco.toLowerCase();
 //console.log(lowerCaseSanfrancisco);
 
