@@ -12,9 +12,11 @@ toLowerCase();
 console.log(amIFromSanfrancisco);
 }
 
+function area(){
 let where  = prompt ('What Part of San Francisco?')
 console.log(where);
 alert (' I am from there too!' + username);
+}
 
 let favorite = prompt (' What is your favorite thing to do there?')
 console.log(favorite);
