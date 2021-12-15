@@ -1,23 +1,27 @@
 'use strict';
-
+function Greeting(){
 console.log('hi');
-
 let username = prompt('what is your name?');
 console.log(username);
 alert ('Hello' +  username);
+}
 
+function city(){
 let amIFromSanfrancisco = prompt('Am I from San Francisco? Yes or No?').
 toLowerCase();
 console.log(amIFromSanfrancisco);
+}
 
+function area(){
 let where  = prompt ('What Part of San Francisco?')
 console.log(where);
 alert (' I am from there too!' + username);
-
+}
+function activity(){
 let favorite = prompt (' What is your favorite thing to do there?')
 console.log(favorite);
 alert ('that sounds like fun!' + username);
-
+}
 //let lowerCaseSanfrancisco = amIFromSanfrancisco.toLowerCase();
 //console.log(lowerCaseSanfrancisco);
 
